@@ -1,0 +1,51 @@
+$(PROJECT_NAME)
+===============
+
+$(TEASER)
+
+Usage
+-----
+
+$(USAGE_INSTRUCTIONS)
+
+
+Contributing
+------------
+
+See the [CONTRIBUTING] document.
+Thank you, [contributors]!
+
+[CONTRIBUTING]: CONTRIBUTING.md
+[contributors]: https://github.com/thoughtbot/$(REPO_NAME)/graphs/contributors
+
+Need Help?
+----------
+
+We offer 1-on-1 coaching. $(COACHING_PITCH)
+
+[Get in touch]: http://coaching.thoughtbot.com/rails/?utm_source=github
+
+License
+-------
+
+$(PROJECT_NAME) is Copyright (c) 2015 thoughtbot, inc. It is free software,
+and may be redistributed under the terms specified in the [LICENSE] file.
+
+[LICENSE]: /LICENSE
+
+About
+-----
+
+$(PROJECT_NAME) is maintained by $(MAINTAINERS).
+
+![thoughtbot](https://thoughtbot.com/logo.png)
+
+$(PROJECT_NAME) is maintained and funded by thoughtbot, inc.
+The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+
+We love open source software!
+See [our other projects][community]
+or [hire us][hire] to help build your product.
+
+[community]: https://thoughtbot.com/community?utm_source=github
+[hire]: https://thoughtbot.com/hire-us?utm_source=github
