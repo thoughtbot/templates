@@ -24,7 +24,7 @@ Thank you, [contributors]!
 Need Help?
 ----------
 
-We offer 1-on-1 coaching. Get in touch if you'd like to learn more about
+We offer 1-on-1 coaching. [Get in touch] if you'd like to learn more about
 starting, maintaining, and contributing to an open source project.
 
 [Get in touch]: http://coaching.thoughtbot.com/rails/?utm_source=github
