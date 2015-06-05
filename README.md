@@ -18,8 +18,11 @@ Contributing
 See the [CONTRIBUTING] document.
 Thank you, [contributors]!
 
+We expect all contributors to follow thoughtbot's [code of conduct].
+
 [CONTRIBUTING]: CONTRIBUTING.md
 [contributors]: https://github.com/thoughtbot/templates/graphs/contributors
+[code of conduct]: https://thoughtbot.com/open-source-code-of-conduct
 
 Need Help?
 ----------
