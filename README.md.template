@@ -21,13 +21,6 @@ We expect all contributors to follow thoughtbot's [code of conduct].
 [contributors]: https://github.com/thoughtbot/$(REPO_NAME)/graphs/contributors
 [code of conduct]: https://thoughtbot.com/open-source-code-of-conduct
 
-Need Help?
-----------
-
-We offer 1-on-1 coaching. [Get in touch] for $(COACHING_PITCH)
-
-[Get in touch]: http://coaching.thoughtbot.com/rails/?utm_source=github
-
 License
 -------
 
