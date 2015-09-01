@@ -1,36 +1,28 @@
-$(PROJECT_NAME)
-===============
+# $(PROJECT_NAME)
 
 $(TEASER)
 
-Usage
------
+## Usage
 
 $(USAGE_INSTRUCTIONS)
 
-
-Contributing
-------------
+## Contributing
 
 See the [CONTRIBUTING] document.
 Thank you, [contributors]!
 
-We expect all contributors to follow thoughtbot's [code of conduct].
+  [CONTRIBUTING]: CONTRIBUTING.md
+  [contributors]: https://github.com/thoughtbot/$(REPO_NAME)/graphs/contributors
 
-[CONTRIBUTING]: CONTRIBUTING.md
-[contributors]: https://github.com/thoughtbot/$(REPO_NAME)/graphs/contributors
-[code of conduct]: https://thoughtbot.com/open-source-code-of-conduct
+## License
 
-License
--------
+$(PROJECT_NAME) is Copyright (c) 2015 thoughtbot, inc.
+It is free software, and may be redistributed
+under the terms specified in the [LICENSE] file.
 
-$(PROJECT_NAME) is Copyright (c) 2015 thoughtbot, inc. It is free software,
-and may be redistributed under the terms specified in the [LICENSE] file.
+  [LICENSE]: /LICENSE
 
-[LICENSE]: /LICENSE
-
-About
------
+## About
 
 $(PROJECT_NAME) is maintained by $(MAINTAINERS).
 
@@ -43,5 +35,5 @@ We love open source software!
 See [our other projects][community]
 or [hire us][hire] to help build your product.
 
-[community]: https://thoughtbot.com/community?utm_source=github
-[hire]: https://thoughtbot.com/hire-us?utm_source=github
+  [community]: https://thoughtbot.com/community?utm_source=github
+  [hire]: https://thoughtbot.com/hire-us?utm_source=github
