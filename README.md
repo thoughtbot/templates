@@ -15,7 +15,7 @@ $VISUAL my-awesome-project/README.md
 See the [CONTRIBUTING] document.
 Thank you, [contributors]!
 
-  [CONTRIBUTING]: CONTRIBUTING.md
+  [CONTRIBUTING]: CONTRIBUTING.md.template
   [contributors]: https://github.com/thoughtbot/templates/graphs/contributors
 
 ## License
