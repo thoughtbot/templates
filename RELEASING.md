@@ -9,12 +9,13 @@
 1. Tag the release: `git tag vVERSION`
 1. Push changes: `git push --tags`
 1. Build and publish:
+  ```bash
+  gem build project-name.gemspec
+  gem push project-name-*.gem
+  ```
 
-```bash
-gem build doorkeeper.gemspec
-gem push doorkeeper-*.gem
-```
-
+1. Add a new GitHub release using the recent `NEWS.md` as the content. Sample
+   URL: https://github.com/thoughtbot/project-name/releases/new?tag=vVERSION
 1. Announce the new release,
    making sure to say "thank you" to the contributors
    who helped shape this version!
