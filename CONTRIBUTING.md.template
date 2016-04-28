@@ -24,6 +24,8 @@ Make your change, with new passing tests. Follow the [style guide][style].
 
   [style]: https://github.com/thoughtbot/guides/tree/master/style
 
+Mention how your changes affect the project to other developers and users of this library in the `NEWS.md` file.
+
 Push to your fork. Write a [good commit message][commit]. Submit a pull request.
 
   [commit]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
