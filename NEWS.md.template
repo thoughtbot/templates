@@ -1,0 +1,51 @@
+# News
+
+All notable changes to this project will be documented in this file.
+
+The format is loosely based on [Keep a Changelog] and this project adheres to
+[Semantic Versioning].
+
+  [Keep a Changelog]: http://keepachangelog.com/
+  [Semantic Versioning]: http://semver.org/
+
+## [Unreleased]
+
+### Added
+
+- This is for new features.
+
+### Changed
+
+- This is for changes in existing functionality.
+
+### Deprecated
+
+- This is for once-stable features removed in upcoming releases.
+
+### Removed
+
+- This is for deprecated features removed in this release.
+
+### Fixed
+
+- This is for any bug fixes.
+
+### Security
+
+- This is to invite users to upgrade in case of vulnerabilities.
+
+  [Unreleased]: https://github.com/thoughtbot/$(REPO_NAME)/compare/v0.2.0...HEAD
+
+## [0.0.2] - 2016-02-01
+
+### Added
+
+- This version to show how each version title is linked (`## [0.0.2]`).
+
+  [0.2.0]: https://github.com/thoughtbot/$(REPO_NAME)/compare/v0.1.0...v0.2.0
+
+## 0.0.1 - 2016-01-01
+
+### Added
+
+- This `NEWS.md` file.
