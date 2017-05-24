@@ -20,7 +20,7 @@ Thank you, [contributors]!
 
 ## License
 
-Open source templates are Copyright (c) 2015 thoughtbot, inc.
+Open source templates are Copyright (c) 2017 thoughtbot, inc.
 It contains free software that may be redistributed
 under the terms specified in the [LICENSE] file.
 
