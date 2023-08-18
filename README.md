@@ -20,7 +20,7 @@ Thank you, [contributors]!
 
 ## License
 
-Open source templates are Copyright (c) 2020 thoughtbot, inc.
+Open source templates are Copyright (c) thoughtbot, inc.
 It contains free software that may be redistributed
 under the terms specified in the [LICENSE] file.
 
