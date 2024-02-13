@@ -11,8 +11,8 @@ $(USAGE_INSTRUCTIONS)
 See the [CONTRIBUTING] document.
 Thank you, [contributors]!
 
-  [CONTRIBUTING]: CONTRIBUTING.md
-  [contributors]: https://github.com/thoughtbot/$(REPO_NAME)/graphs/contributors
+[CONTRIBUTING]: CONTRIBUTING.md
+[contributors]: https://github.com/thoughtbot/$(REPO_NAME)/graphs/contributors
 
 ## License
 
@@ -20,13 +20,13 @@ $(PROJECT_NAME) is Copyright (c) thoughtbot, inc.
 It is free software, and may be redistributed
 under the terms specified in the [LICENSE] file.
 
-  [LICENSE]: /LICENSE
+[LICENSE]: /LICENSE
 
 ## About
 
 $(PROJECT_NAME) is maintained by $(MAINTAINERS).
 
-![thoughtbot](https://thoughtbot.com/brand_assets/93:44.svg)
+![thoughtbot](https://thoughtbot.com/thoughtbot-logo-for-readmes.svg)
 
 $(PROJECT_NAME) is maintained and funded by thoughtbot, inc.
 The names and logos for thoughtbot are trademarks of thoughtbot, inc.
@@ -35,5 +35,5 @@ We love open source software!
 See [our other projects][community]
 or [hire us][hire] to help build your product.
 
-  [community]: https://thoughtbot.com/community?utm_source=github
-  [hire]: https://thoughtbot.com/hire-us?utm_source=github
+[community]: https://thoughtbot.com/community?utm_source=github
+[hire]: https://thoughtbot.com/hire-us?utm_source=github
