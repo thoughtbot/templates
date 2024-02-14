@@ -28,7 +28,7 @@ under the terms specified in the [LICENSE] file.
 
 ## About
 
-![thoughtbot](https://thoughtbot.com/brand_assets/93:44.svg)
+![thoughtbot](https://thoughtbot.com/thoughtbot-logo-for-readmes.svg)
 
 Templates are maintained and funded by thoughtbot, inc.
 The names and logos for thoughtbot are trademarks of thoughtbot, inc.
