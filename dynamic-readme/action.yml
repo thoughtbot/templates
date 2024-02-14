@@ -1,5 +1,9 @@
 name: Dynamic Readme
 description: Dynamically update READMEs 
+inputs:
+  github_token:
+    required: true
+    description: "The secrets GITHUB_TOKEN"
 
 runs:
   using: "composite"
@@ -10,7 +14,7 @@ runs:
     - name: "💾  Github Repository Metadata"
       uses: varunsridharan/action-repository-meta@main
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ inputs.github_token }}
 
     - name: "💫  VS Utility"
       uses: varunsridharan/action-vs-utility@main
@@ -35,7 +39,7 @@ runs:
           README.md
           README.md.template
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ inputs.github_token }}
 
     - name: "⚡ Repository - After Hook"
       shell: bash
