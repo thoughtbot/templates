@@ -8,9 +8,6 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: "📥  Fetching Repository Contents"
-      uses: actions/checkout@main
-
     - name: "💾  Github Repository Metadata"
       uses: varunsridharan/action-repository-meta@main
       env:
