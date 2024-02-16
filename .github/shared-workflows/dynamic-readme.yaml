@@ -36,7 +36,6 @@ jobs:
           GLOBAL_TEMPLATE_REPOSITORY: thoughtbot/templates
           files: |
             README.md
-            README.md.template
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
