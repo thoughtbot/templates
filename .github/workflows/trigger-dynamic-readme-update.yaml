@@ -17,6 +17,5 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: update-templates
-          repo: thoughtbot/testing-reusable-repos
           token: ${{ secrets.PAT_TOKEN }}
           ref: "main"
