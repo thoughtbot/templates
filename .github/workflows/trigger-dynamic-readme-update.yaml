@@ -14,7 +14,51 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repository: [thoughtbot/high_voltage]
+        repository:
+          - thoughtbot/high_voltage
+          - thoughtbot/guides
+          - thoughtbot/administrate
+          - thoughtbot/shoulda-matchers
+          - thoughtbot/flightdeck
+          - thoughtbot/suspenders
+          - thoughtbot/shoulda-context
+          - thoughtbot/appraisal
+          - thoughtbot/clearance-i18n
+          - thoughtbot/gold_miner
+          - thoughtbot/capybara_accessibility_audit
+          - thoughtbot/upcase
+          - thoughtbot/ruby-science
+          - thoughtbot/terraform-flightdeck-aws-application
+          - thoughtbot/design-system
+          - thoughtbot/factory_bot_rails
+          - thoughtbot/bourbon
+          - thoughtbot/factory_bot
+          - thoughtbot/ember-cli-rails
+          - thoughtbot/dotfiles
+          - thoughtbot/terraform-ses-domain-identity
+          - thoughtbot/stylelint-config
+          - thoughtbot/cloudformation-terraform-state-backend
+          - thoughtbot/humid
+          - thoughtbot/clearance
+          - thoughtbot/griddler-sendgrid
+          - thoughtbot/terraform-aws-secrets
+          - thoughtbot/yuri-ita
+          - thoughtbot/paul_revere
+          - thoughtbot/terraform-eks-cicd
+          - thoughtbot/terraform-s3-bucket
+          - thoughtbot/terraform-route-53-delegated-subdomain
+          - thoughtbot/eslint-config
+          - thoughtbot/rcm
+          - thoughtbot/fishery
+          - thoughtbot/terrapin
+          - thoughtbot/shoulda
+          - thoughtbot/laptop
+          - thoughtbot/resolved
+          - thoughtbot/griddler
+          - thoughtbot/climate_control
+          - thoughtbot/Curry
+          - thoughtbot/croutons
+          - thoughtbot/parity
     steps:
       - name: Trigger Dynamic READMEs to be updated with templates
         uses: benc-uk/workflow-dispatch@v1
