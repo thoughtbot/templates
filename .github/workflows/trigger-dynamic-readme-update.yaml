@@ -1,0 +1,22 @@
+name: trigger-dynamic-readme-update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - templates/footer.md
+
+jobs:
+  trigger-workflow-dispatch:
+    permissions:
+      actions: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Dynamic READMEs to be updated with templates
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: update-templates
+          repo: thoughtbot/testing-reusable-repos
+          token: ${{ secrets.PAT_TOKEN }}
+          ref: "main"
