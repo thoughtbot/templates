@@ -12,10 +12,14 @@ jobs:
     permissions:
       actions: write
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repository: [thoughtbot/high_voltage]
     steps:
       - name: Trigger Dynamic READMEs to be updated with templates
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: update-templates
+          repo: ${{ matrix.repository }}
           token: ${{ secrets.PAT_TOKEN }}
           ref: "main"
