@@ -10,14 +10,16 @@ cp templates/README.md.template my-awesome-project/README.md
 $VISUAL my-awesome-project/README.md
 ```
 
-### Dynamic content for the footer
+### Dynamic content rendering for the footer
 
 The [README.md.template](/README.md.template) includes a dynamic README
 content snippet. That means the footer will be rendered and updated automatically
-for you with the contents from the [templates footer](/templates/footer.md) file.
+for you with the contents from the [footer](/templates/footer.md) template.
 
-To make it work, copy this [github workflow example](/.github/workflows/dynamic-readme-example.yaml)
+To make it work when using the [README.md.template](/README.md.template):
+- copy the [github workflow example](/.github/workflows/dynamic-readme-example.yaml)
 and rename it to `dynamic-readme`.
+- add the repo path to the repository matrix in the [workflow dispatch](/.github/workflows/trigger-dynamic-readme-update.yaml).
 
 ## Contributing
 
