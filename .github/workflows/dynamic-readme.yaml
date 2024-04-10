@@ -29,6 +29,24 @@ jobs:
             README.md
           committer_name: github-actions[bot]
           committer_email: github-actions[bot]@users.noreply.github.com
-          commit_message: 'docs: update readme file with markdown templates [skip ci]'
+          commit_message: "docs: update readme file with markdown templates [skip ci]"
+          confirm_and_push: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "docs: documentation files updated [skip ci]"
+          committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          signoff: false
+          branch: github-actions/repository-maintenance
+          delete-branch: true
+          title: "Automatically Generated: Update Dynamic Section in README"
+          body: |
+            This PR was automatically generated to update the dynamic section in the README file.
+            Whenever the README is updated, this workflow is triggered to dynamically render the snippet
+            used in the README.
