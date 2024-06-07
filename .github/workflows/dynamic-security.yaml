@@ -9,8 +9,8 @@ on:
         required: true
 
 jobs:
-  update_templates:
-    name: "Update Templates"
+  update_security-file:
+    name: "Update Security file"
     runs-on: ubuntu-latest
     steps:
       - name: "📥  Fetching Repository Contents"
