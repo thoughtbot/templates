@@ -1,0 +1,53 @@
+name: Dynamic SECURITY reusable workflow
+
+env:
+  VS_WORKFLOW_TYPE: "dynamic-readme"
+on:
+  workflow_call:
+    secrets:
+      token:
+        required: true
+
+jobs:
+  update_templates:
+    name: "Update Templates"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - name: "💾  Github Repository Metadata"
+        uses: varunsridharan/action-repository-meta@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "💫  Dynamic Template Render"
+        uses: varunsridharan/action-dynamic-readme@main
+        with:
+          GLOBAL_TEMPLATE_REPOSITORY: thoughtbot/templates
+          files: |
+            SECURITY.md
+          committer_name: github-actions[bot]
+          committer_email: github-actions[bot]@users.noreply.github.com
+          commit_message: "docs: update security file with markdown templates [skip ci]"
+          confirm_and_push: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "docs: documentation files updated"
+          committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          signoff: false
+          branch: github-actions/repository-maintenance-${{ github.sha }}
+          delete-branch: true
+          title: "Automatically Generated: Update Dynamic Section in SECURITY"
+          body: |
+            This PR was automatically generated to update the dynamic section in the SECURITY file.
+            Whenever SECURITY is updated, this workflow is triggered to dynamically render the snippet
+            used in the SECURITY file.
+  
