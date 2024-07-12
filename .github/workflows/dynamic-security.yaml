@@ -9,7 +9,7 @@ on:
         required: true
 
 jobs:
-  update_security-file:
+  update_security:
     name: "Update Security file"
     runs-on: ubuntu-latest
     steps:
@@ -50,4 +50,3 @@ jobs:
             This PR was automatically generated to update the dynamic section in the SECURITY file.
             Whenever SECURITY is updated, this workflow is triggered to dynamically render the snippet
             used in the SECURITY file.
-  

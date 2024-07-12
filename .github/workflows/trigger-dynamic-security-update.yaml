@@ -59,11 +59,12 @@ jobs:
           - thoughtbot/Curry
           - thoughtbot/croutons
           - thoughtbot/parity
+          - thoughtbot/testing-reusable-workflow
     steps:
       - name: Trigger Dynamic SECURITYs to be updated with templates
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: update_security-file
+          workflow: updatesecurity
           repo: ${{ matrix.repository }}
           token: ${{ secrets.PAT_TOKEN }}
           ref: "main"
