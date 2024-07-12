@@ -13,3 +13,5 @@ your reasons so that we can have a better understanding of your situation.
 
 For security inquiries or vulnerability reports, visit
 <https://thoughtbot.com/security>.
+
+If you have any suggestions to improve this policy, please send an email to the email address at <https://thoughtbot.com/security>.
