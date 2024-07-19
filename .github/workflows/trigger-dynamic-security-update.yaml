@@ -60,6 +60,7 @@ jobs:
           - thoughtbot/croutons
           - thoughtbot/parity
           - thoughtbot/testing-reusable-workflow
+          - thoughtbot/art_vandelay
     steps:
       - name: Trigger Dynamic SECURITYs to be updated with templates
         uses: benc-uk/workflow-dispatch@v1
