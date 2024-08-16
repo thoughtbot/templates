@@ -40,18 +40,15 @@ jobs:
           - thoughtbot/eslint-config
           - thoughtbot/factory_bot
           - thoughtbot/factory_bot_rails
-          - thoughtbot/fake_stripe
           - thoughtbot/fishery
           - thoughtbot/flightdeck
           - thoughtbot/form_props
           - thoughtbot/gold_miner
-          - thoughtbot/griddler
-          - thoughtbot/griddler-sendgrid
           - thoughtbot/guides
           - thoughtbot/high_voltage
           - thoughtbot/humid
+          - thoughtbot/ios-on-rails
           - thoughtbot/laptop
-          - thoughtbot/opentelemetry-ruby
           - thoughtbot/paperback
           - thoughtbot/parity
           - thoughtbot/paul_revere
