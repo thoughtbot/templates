@@ -81,7 +81,6 @@ jobs:
           - thoughtbot/terraform-ses-domain-identity
           - thoughtbot/terrapin
           - thoughtbot/testing-reusable-workflow
-          - thoughtbot/til
           - thoughtbot/upcase
           - thoughtbot/yuri-ita
     steps:
