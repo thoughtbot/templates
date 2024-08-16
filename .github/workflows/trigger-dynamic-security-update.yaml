@@ -30,6 +30,7 @@ jobs:
           - thoughtbot/clearance-i18n
           - thoughtbot/climate_control
           - thoughtbot/cloudformation-terraform-state-backend
+          - thoughtbot/complexity
           - thoughtbot/croutons
           - thoughtbot/Curry
           - thoughtbot/design-sprint-guide
