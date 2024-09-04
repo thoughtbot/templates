@@ -1,7 +1,7 @@
 # Releasing
 
 1. Update version file accordingly.
-1. Update `NEWS.md` to reflect the changes since last release.
+1. Update `NEWS.md` or `CHANGELOG.md` to reflect the changes since last release.
 1. Commit changes.
    There shouldn't be code changes,
    and thus CI doesn't need to run,
@@ -14,10 +14,14 @@
     gem build project-name.gemspec
     gem push project-name-*.gem
     ```
-1. Add a new GitHub release using the recent `NEWS.md` as the content. Sample
+1. Add a new GitHub release using the recent `NEWS.md` or `CHANGELOG.md` as the content. Sample
    URL: https://github.com/thoughtbot/project-name/releases/new?tag=vVERSION
 1. Announce the new release,
    making sure to say "thank you" to the contributors
    who helped shape this version!
 
+If the project is hosted on RubyGems, consider using [RubyGems Trusted Publication] to automatically
+push the release using a GitHub action.
+
+[RubyGems Trusted Publication]: https://github.com/rubygems/release-gem
 [_quick guide on how to sign a release_]: http://gitready.com/advanced/2014/11/02/gpg-sign-releases.html
