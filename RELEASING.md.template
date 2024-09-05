@@ -10,7 +10,7 @@ You can copy [GitHub automatically generated release notes] for this step.
 
 ## 3. Commit changes
 
-There shouldn't be code changes, and thus CI doesn't need to run. You can then add "[ci skip]" to the commit message.
+There shouldn't be code changes, and thus CI doesn't need to run. Add "[ci skip]" to the commit message.
 
 ## 4. Tag the release: `git tag -s vVERSION`
 
@@ -30,7 +30,7 @@ gem push project-name-*.gem
 If the project is hosted on RubyGems, consider using [RubyGems Trusted Publication] to automatically
 push the release using a GitHub action.
 
-## 7. Add a new GitHub release using the recent `NEWS.md` or `CHANGELOG.md` as the content.
+## 7. Add a new GitHub release using the recent `NEWS.md` or `CHANGELOG.md` as the content
 
 Sample URL: https://github.com/thoughtbot/project-name/releases/new?tag=vVERSION
 
@@ -39,5 +39,5 @@ Sample URL: https://github.com/thoughtbot/project-name/releases/new?tag=vVERSION
 Make sure to say "thank you" to the contributors who helped shape this version!
 
 [RubyGems Trusted Publication]: https://github.com/rubygems/release-gem
-[_quick guide on how to sign a release_]: http://gitready.com/advanced/2014/11/02/gpg-sign-releases.html
+[_quick guide on how to sign a release_]: https://gitready.com/advanced/2014/11/02/gpg-sign-releases.html
 [GitHub automatically generated release notes]: https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes#about-automatically-generated-release-notes
