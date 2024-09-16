@@ -31,7 +31,6 @@ jobs:
           - thoughtbot/terraform-flightdeck-aws-application
           - thoughtbot/design-system
           - thoughtbot/factory_bot_rails
-          - thoughtbot/bourbon
           - thoughtbot/factory_bot
           - thoughtbot/ember-cli-rails
           - thoughtbot/dotfiles

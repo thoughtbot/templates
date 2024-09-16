@@ -21,8 +21,6 @@ jobs:
           - thoughtbot/aws-sns-sentry-delivery
           - thoughtbot/bamboo_phoenix
           - thoughtbot/belt
-          - thoughtbot/bourbon
-          - thoughtbot/bourbon.io
           - thoughtbot/brakeman-linter-action
           - thoughtbot/capybara_accessibility_audit
           - thoughtbot/capybara_discoball
