@@ -39,10 +39,8 @@ jobs:
           - thoughtbot/cloudformation-terraform-state-backend
           - thoughtbot/humid
           - thoughtbot/clearance
-          - thoughtbot/griddler-sendgrid
           - thoughtbot/terraform-aws-secrets
           - thoughtbot/yuri-ita
-          - thoughtbot/paul_revere
           - thoughtbot/terraform-eks-cicd
           - thoughtbot/terraform-s3-bucket
           - thoughtbot/terraform-route-53-delegated-subdomain
@@ -53,10 +51,8 @@ jobs:
           - thoughtbot/shoulda
           - thoughtbot/laptop
           - thoughtbot/resolved
-          - thoughtbot/griddler
           - thoughtbot/climate_control
           - thoughtbot/Curry
-          - thoughtbot/croutons
           - thoughtbot/parity
           - thoughtbot/testing-reusable-workflow
     steps:
