@@ -29,7 +29,6 @@ jobs:
           - thoughtbot/climate_control
           - thoughtbot/cloudformation-terraform-state-backend
           - thoughtbot/complexity
-          - thoughtbot/croutons
           - thoughtbot/Curry
           - thoughtbot/design-sprint-guide
           - thoughtbot/design-system
@@ -49,7 +48,6 @@ jobs:
           - thoughtbot/laptop
           - thoughtbot/paperback
           - thoughtbot/parity
-          - thoughtbot/paul_revere
           - thoughtbot/props_template
           - thoughtbot/rcm
           - thoughtbot/react-native-on-rails
