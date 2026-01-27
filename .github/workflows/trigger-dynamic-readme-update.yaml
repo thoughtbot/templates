@@ -55,6 +55,7 @@ jobs:
           - thoughtbot/Curry
           - thoughtbot/parity
           - thoughtbot/testing-reusable-workflow
+          - thoughtbot/michel
     steps:
       - name: Trigger Dynamic READMEs to be updated with templates
         uses: benc-uk/workflow-dispatch@v1

@@ -46,6 +46,7 @@ jobs:
           - thoughtbot/humid
           - thoughtbot/ios-on-rails
           - thoughtbot/laptop
+          - thoughtbot/michel
           - thoughtbot/paperback
           - thoughtbot/parity
           - thoughtbot/props_template
