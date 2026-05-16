@@ -78,6 +78,7 @@ jobs:
           - thoughtbot/testing-reusable-workflow
           - thoughtbot/upcase
           - thoughtbot/yuri-ita
+          - thoughtbot/importmap-update
     steps:
       - name: Trigger Dynamic SECURITYs to be updated with templates
         uses: benc-uk/workflow-dispatch@v1
